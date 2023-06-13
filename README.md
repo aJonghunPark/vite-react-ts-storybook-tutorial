@@ -1,6 +1,6 @@
 # vite + react + typescript + prettier + jest + storybook tutorial
 
-I fixed the code in the [Storybook Tutorial](https://storybook.js.org/tutorials/intro-to-storybook/react/en/contribute/) with Typescript.
+I fixed the code in the [Storybook Tutorial](https://storybook.js.org/tutorials/intro-to-storybook/react/en/get-started/) with Typescript.
 This code works well.
 
 ## Quick start
