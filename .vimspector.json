@@ -1,0 +1,52 @@
+{
+  "configurations": {
+    "chrome": {
+      "adapter": "chrome",
+      "breakpoints": {
+        "exception": {
+          "all": "N",
+          "uncaught": "N"
+        }
+      },
+      "configuration": {
+        "request": "launch",
+        "url": "http://localhost:5173/",
+        "webRoot": "${workspaceRoot}/public"
+      }
+    },
+    "jest": {
+      "adapter": "vscode-node",
+      "breakpoints": {
+        "exception": {
+          "all": "N",
+          "uncaught": "N"
+        }
+      },
+      "configuration": {
+        "request": "launch",
+        "name": "Debug Jest Test",
+        "type": "node",
+        "program": "${workspaceRoot}/node_modules/.bin/jest",
+        "args": ["${fileBasenameNoExtension}"],
+        "console": "integratedTerminal",
+        "skipFiles": ["*/<node_internals>/**/*.js"],
+        "cwd": "${workspaceRoot}"
+      }
+    },
+    "storybook": {
+      "adapter": "chrome",
+      "breakpoints": {
+        "exception": {
+          "all": "N",
+          "uncaught": "N"
+        }
+      },
+      "configuration": {
+        "request": "launch",
+        "url": "http://localhost:6006/",
+        "sourceMaps": true,
+        "webRoot": "${workspaceFolder}"
+      }
+    }
+  }
+}
